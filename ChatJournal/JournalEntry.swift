@@ -1,5 +1,5 @@
 //
-//  Item.swift
+//  JournalEntry.swift
 //  ChatJournal
 //
 //  Created by Zayn Damji on 7/1/25.
@@ -9,7 +9,7 @@ import Foundation
 import SwiftData
 
 @Model
-final class Item {
+final class JournalEntry {
     var timestamp: Date
     
     init(timestamp: Date) {
