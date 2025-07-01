@@ -10,9 +10,13 @@ import SwiftData
 
 @Model
 final class JournalEntry {
-    var timestamp: Date
+    var timeCreated: Date
+    var timeModified: Date
+    var content: String
     
-    init(timestamp: Date) {
-        self.timestamp = timestamp
+    init(timeCreated: Date) {
+        self.timeCreated = timeCreated
+        self.timeModified = timeCreated
+        self.content = ""
     }
 }

@@ -17,9 +17,9 @@ struct ContentView: View {
             List {
                 ForEach(journalEntries) { entry in
                     NavigationLink {
-                        Text("This journal entry was created on \(entry.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        JournalEntryView(entry: entry)
                     } label: {
-                        Text(entry.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        Text(entry.timeCreated, format: Date.FormatStyle(date: .numeric, time: .standard))
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -41,7 +41,7 @@ struct ContentView: View {
 
     private func addItem() {
         withAnimation {
-            let newItem = JournalEntry(timestamp: Date())
+            let newItem = JournalEntry(timeCreated: Date())
             modelContext.insert(newItem)
         }
     }
