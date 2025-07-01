@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7A57DDA62E149C3100E174DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A57DDA52E149C2D00E174DD /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7A57DD862E1499BE00E174DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		7A57DD762E1499BD00E174DD /* ChatJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A57DD852E1499BE00E174DD /* ChatJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A57DD8F2E1499BE00E174DD /* ChatJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A57DDA52E149C2D00E174DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		7A57DD6D2E1499BD00E174DD = {
 			isa = PBXGroup;
 			children = (
+				7A57DDA52E149C2D00E174DD /* README.md */,
 				7A57DD782E1499BD00E174DD /* ChatJournal */,
 				7A57DD882E1499BE00E174DD /* ChatJournalTests */,
 				7A57DD922E1499BE00E174DD /* ChatJournalUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A57DDA62E149C3100E174DD /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
